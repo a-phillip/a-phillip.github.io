@@ -1885,9 +1885,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: "env",
-    cdn: {"js":{"app":"/js/app.7a2c825e.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/parallax.js?time=1710084672641","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/rightMenu.js?time=1710084672641","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/rightMenus.js?time=1710084672641","sites":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/sites.js?time=1710084672641","friends":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/friends.js?time=1710084672641","contributors":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/contributors.js?time=1710084672641","search":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/search/hexo.js?time=1710084672641"},"css":{"style":"/css/style.379a6897.css"}},
+    cdn: {"js":{"app":"/js/app.7a2c825e.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/parallax.js?time=1710085795176","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/rightMenu.js?time=1710085795176","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/rightMenus.js?time=1710085795176","sites":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/sites.js?time=1710085795176","friends":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/friends.js?time=1710085795176","contributors":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/contributors.js?time=1710085795176","search":"https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/search/hexo.js?time=1710085795176"},"css":{"style":"/css/style.379a6897.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1710084672641),
+    lastupdate: new Date(1710085795176),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -3214,23 +3214,7 @@ LANDSCAPE！
     <!-- Custom Files footer end-->
   </footer>
 
-<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
-<script>
-    var now = new Date(); 
-    function createtime() { 
-        var grt= new Date("08/10/2018 17:38:00");//在此处修改你的建站时间，格式：月/日/年 时:分:秒
-        now.setTime(now.getTime()+250); 
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-    } 
-setInterval("createtime()",250);
-</script>
+
         <a id="s-top" class="fa-solid fa-arrow-up fa-fw" href="/" onclick="return false;" title="top"></a>
       </div>
     </div>
@@ -3393,19 +3377,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/sites.js?time=1710084672641")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/sites.js?time=1710085795176")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/friends.js?time=1710084672641")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/friends.js?time=1710085795176")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/contributors.js?time=1710084672641")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/plugins/tags/contributors.js?time=1710085795176")
       }
     
   };
@@ -3605,7 +3589,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/search/hexo.js?time=1710084672641");
+    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.8.0/source/js/search/hexo.js?time=1710085795176");
   }
 
   function loadSearchService() {
