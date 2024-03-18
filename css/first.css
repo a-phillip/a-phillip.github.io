@@ -9,7 +9,7 @@
   --color-card: #fff;
   --color-text: #444;
   --color-block: #f6f6f6;
-  --color-inlinecode: #c74f00;
+  --color-inlinecode: #8e24aa;
   --color-codeblock: #fff7ea;
   --color-h1: #3a3a3a;
   --color-h2: #3a3a3a;
@@ -175,6 +175,16 @@ button {
 .shadow.floatable:hover {
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
+}
+canvas {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -1;
 }
 #l_cover {
   min-height: 64px;
@@ -789,7 +799,7 @@ button {
     --color-copyright-bkg: #21252b;
   }
   :root:not([color-scheme]) img {
-    filter: brightness(70%) !important;
+    filter: brightness(90%) !important;
   }
   :root:not([color-scheme]) .blur {
     background: rgba(31,31,31,0.9) !important;
@@ -861,7 +871,7 @@ button {
   --color-copyright-bkg: #21252b;
 }
 [color-scheme='dark'] img {
-  filter: brightness(70%) !important;
+  filter: brightness(90%) !important;
 }
 [color-scheme='dark'] .blur {
   background: rgba(31,31,31,0.9) !important;

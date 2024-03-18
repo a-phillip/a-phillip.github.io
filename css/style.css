@@ -7166,3 +7166,18 @@ pre {
 [color-scheme='dark'] .aplayer .aplayer-notice {
   background-color: var(--color-site-bg) !important;
 }
+#l_main .post,
+#l_side .widget {
+  opacity: 0.8;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+}
+#post.post,
+#docs.post {
+  opacity: 0.8;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+}
+.parallax-mirror {
+  filter: brightness(0.5);
+}
